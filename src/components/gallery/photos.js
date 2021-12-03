@@ -1,138 +1,139 @@
 import React from "react";
+import ImageGallery from "react-image-gallery";
+
+const images = [
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514074/Dr%20ASV/gallery/SDE_1680-min_m6ih6w.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514074/Dr%20ASV/gallery/SDE_1680-min_m6ih6w.jpg",
+  },
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514074/Dr%20ASV/gallery/SDE_1661-min_xruo1b.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514074/Dr%20ASV/gallery/SDE_1661-min_xruo1b.jpg",
+  },
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638513480/Dr%20ASV/gallery/doctor-asha_gt9kng.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638513480/Dr%20ASV/gallery/doctor-asha_gt9kng.jpg",
+  },
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514074/Dr%20ASV/gallery/SDE_1879-min_redtec.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514074/Dr%20ASV/gallery/SDE_1879-min_redtec.jpg",
+  },
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514074/Dr%20ASV/gallery/SDE_1736-min_r1bdka.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514074/Dr%20ASV/gallery/SDE_1736-min_r1bdka.jpg",
+  },
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514074/Dr%20ASV/gallery/SDE_1670-min_pml3vi.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514074/Dr%20ASV/gallery/SDE_1670-min_pml3vi.jpg",
+  },
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514075/Dr%20ASV/gallery/SDE_1989-min_ib5jpo.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514075/Dr%20ASV/gallery/SDE_1989-min_ib5jpo.jpg",
+  },
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514077/Dr%20ASV/gallery/SDE_1756-min_pp74jy.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514077/Dr%20ASV/gallery/SDE_1756-min_pp74jy.jpg",
+  },
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514148/Dr%20ASV/gallery/SDE_1843_fggayh.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514148/Dr%20ASV/gallery/SDE_1843_fggayh.jpg",
+  },
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514368/Dr%20ASV/gallery/505_fa2no4.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514368/Dr%20ASV/gallery/505_fa2no4.jpg",
+  },
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514368/Dr%20ASV/gallery/472_wi9jao.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514368/Dr%20ASV/gallery/472_wi9jao.jpg",
+  },
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514368/Dr%20ASV/gallery/002a_oblwlw.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514368/Dr%20ASV/gallery/002a_oblwlw.jpg",
+  },
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514369/Dr%20ASV/gallery/521_hflimj.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514369/Dr%20ASV/gallery/521_hflimj.jpg",
+  },
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514369/Dr%20ASV/gallery/512_yhctm1.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514369/Dr%20ASV/gallery/512_yhctm1.jpg",
+  },
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514370/Dr%20ASV/gallery/771_tyanho.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514370/Dr%20ASV/gallery/771_tyanho.jpg",
+  },
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514370/Dr%20ASV/gallery/780_j7hyza.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514370/Dr%20ASV/gallery/780_j7hyza.jpg",
+  },
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514370/Dr%20ASV/gallery/452_f4vfhc.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514370/Dr%20ASV/gallery/452_f4vfhc.jpg",
+  },
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514371/Dr%20ASV/gallery/770_nygjs4.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514371/Dr%20ASV/gallery/770_nygjs4.jpg",
+  },
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514372/Dr%20ASV/gallery/861_xzyahc.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514372/Dr%20ASV/gallery/861_xzyahc.jpg",
+  },
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514372/Dr%20ASV/gallery/853_slmybc.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514372/Dr%20ASV/gallery/853_slmybc.jpg",
+  },
+  {
+    original:
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514371/Dr%20ASV/gallery/860_jhq3l2.jpg",
+    thumbnail:
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514371/Dr%20ASV/gallery/860_jhq3l2.jpg",
+  },
+];
 
 const Photos = () => {
   return (
     <div>
-      <div>
-        <div className="container mx-auto px-4">
-          <section className="py-8 px-4">
-            <div className="flex flex-wrap -mx-4">
-              <div className="md:w-1/2 px-4 mb-8 md:mb-0">
-                <img
-                  className="rounded shadow-md"
-                  src="https://source.unsplash.com/random/1280x720"
-                  alt=""
-                />
-              </div>
-              <div className="md:w-1/2 px-4 mb-8 md:mb-0">
-                <img
-                  className="rounded shadow-md"
-                  src="https://source.unsplash.com/random/1280x720"
-                  alt=""
-                />
-              </div>
-            </div>
-          </section>
-
-          <section className="pt-8 px-4">
-            <div className="flex flex-wrap -mx-4">
-              <div className="md:w-1/3 px-4 mb-8">
-                <img
-                  className="rounded shadow-md"
-                  src="https://source.unsplash.com/random/1280x720"
-                  alt=""
-                />
-              </div>
-              <div className="md:w-1/3 px-4 mb-8">
-                <img
-                  className="rounded shadow-md"
-                  src="https://source.unsplash.com/random/1280x720"
-                  alt=""
-                />
-              </div>
-              <div className="md:w-1/3 px-4 mb-8">
-                <img
-                  className="rounded shadow-md"
-                  src="https://source.unsplash.com/random/1280x720"
-                  alt=""
-                />
-              </div>
-              <div className="md:w-1/3 px-4 mb-8">
-                <img
-                  className="rounded shadow-md"
-                  src="https://source.unsplash.com/random/1280x720"
-                  alt=""
-                />
-              </div>
-              <div className="md:w-1/3 px-4 mb-8">
-                <img
-                  className="rounded shadow-md"
-                  src="https://source.unsplash.com/random/1280x720"
-                  alt=""
-                />
-              </div>
-              <div className="md:w-1/3 px-4 mb-8">
-                <img
-                  className="rounded shadow-md"
-                  src="https://source.unsplash.com/random/1280x720"
-                  alt=""
-                />
-              </div>
-            </div>
-          </section>
-
-          <section className="py-8 px-4">
-            <div className="flex flex-wrap -mx-4 -mb-8">
-              <div className="md:w-1/4 px-4 mb-8">
-                <img
-                  className="rounded shadow-md"
-                  src="https://source.unsplash.com/random/1280x720"
-                  alt=""
-                />
-              </div>
-              <div className="md:w-1/4 px-4 mb-8">
-                <img
-                  className="rounded shadow-md"
-                  src="https://source.unsplash.com/random/1280x720"
-                  alt=""
-                />
-              </div>
-              <div className="md:w-1/4 px-4 mb-8">
-                <img
-                  className="rounded shadow-md"
-                  src="https://source.unsplash.com/random/1280x720"
-                  alt=""
-                />
-              </div>
-              <div className="md:w-1/4 px-4 mb-8">
-                <img
-                  className="rounded shadow-md"
-                  src="https://source.unsplash.com/random/1280x720"
-                  alt=""
-                />
-              </div>
-              <div className="md:w-1/4 px-4 mb-8">
-                <img
-                  className="rounded shadow-md"
-                  src="https://source.unsplash.com/random/1280x720"
-                  alt=""
-                />
-              </div>
-              <div className="md:w-1/4 px-4 mb-8">
-                <img
-                  className="rounded shadow-md"
-                  src="https://source.unsplash.com/random/1280x720"
-                  alt=""
-                />
-              </div>
-              <div className="md:w-1/4 px-4 mb-8">
-                <img
-                  className="rounded shadow-md"
-                  src="https://source.unsplash.com/random/1280x720"
-                  alt=""
-                />
-              </div>
-              <div className="md:w-1/4 px-4 mb-8">
-                <img
-                  className="rounded shadow-md"
-                  src="https://source.unsplash.com/random/1280x720"
-                  alt=""
-                />
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
+      <ImageGallery items={images} />
     </div>
   );
 };
