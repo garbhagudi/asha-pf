@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
       <footer class="bg-black w-full py-8">
         <div class="max-w-screen-xl mx-auto px-4">
-          <ul class="max-w-screen-md mx-auto text-lg font-light flex flex-wrap justify-between font-dosis">
+          <ul class="max-w-screen-md mx-auto text-lg font-light flex flex-wrap justify-between font-qs">
             <li class="my-2">
               <a
                 class="text-gray-400 hover:text-gray-300 transition-colors duration-200"
@@ -24,7 +24,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Garbhagudi
+                GarbhaGudi
               </a>
             </li>
             <li class="my-2">
@@ -40,7 +40,7 @@ const Footer = () => {
             <li class="my-2">
               <a
                 class="text-gray-400 hover:text-gray-300 transition-colors duration-200"
-                href="#"
+                href="https://www.linkedin.com/in/asha-s-vijay-a51870175/?originalSubdomain=in"
               >
                 LinkedIn
               </a>

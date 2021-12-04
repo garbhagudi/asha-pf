@@ -34,10 +34,11 @@ const Testimonials = () => {
         </div>
         <div class="bg-black w-96 shadow-lg mx-auto rounded-xl p-4 border">
           <p class="text-gray-400">
-            <span class="font-bold text-blue-500 text-lg">“</span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-            dolorem architecto illum quaerat est. Rerum iure voluptatem, quae
-            explicabo quidem ea reprehenderit quibusdam non laboriosam.
+            <span class="font-bold text-blue-500 text-lg">“</span>I personally
+            know Dr Asha S Viijay as a founder and medical director of
+            GarbhaGudi group companies. She is very fucused on her dream of
+            creating awareness to the general public regaring infertility issues
+            and its treatments. Thankfull to the doctor and her team.
             <span class="font-bold text-blue-500 text-lg">”</span>
           </p>
           <div class="flex items-center mt-4">
@@ -48,10 +49,10 @@ const Testimonials = () => {
             />
             <div class="flex flex-col ml-2 justify-between">
               <span class="font-semibold text-blue-500 text-sm">
-                Lorem, ipsum.
+                Shiva Shastry
               </span>
               <span class="text-gray-400 text-xs flex items-center">
-                Lorem ipsum dolor sit.
+                Founder and CEO - Elka Pvt Ltd
               </span>
             </div>
           </div>

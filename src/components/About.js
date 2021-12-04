@@ -23,7 +23,7 @@ const About = () => {
         <span className="block text-2xl my-10 font-bold text-center text-gray-400 dark:text-white lg:text-xl hover:text-gray-400 font-qs">
           ABOUT
         </span>
-        <h2 className="text-center text-gray-900 tracking-widest uppercase pt-1 mb-10 font-semibold bg-blue-500 w-96 mx-auto rounded-3xl text-lg font-heading">
+        <h2 className="text-center text-gray-900 tracking-widest uppercase pt-1 mb-10 font-bold bg-blue-500 w-96 mx-auto rounded-3xl text-lg font-qs">
           Who is Dr. Asha?
         </h2>
         <p className="font-heading text-center p-2 pb-8 text-gray-400 text-lg lg:text-2xl underline ">
@@ -54,7 +54,7 @@ const About = () => {
           the patient and clear all the doubts that they might have in their
           minds.
         </p>
-        <h2 className="text-center text-gray-900 tracking-widest uppercase mb-10 font-semibold mt-10 bg-blue-500 w-96 mx-auto rounded-3xl text-lg">
+        <h2 className="text-center text-gray-900 tracking-widest uppercase mb-10 font-qs font-semibold mt-10 bg-blue-500 w-96 mx-auto rounded-3xl text-lg">
           Career
         </h2>
         <p className="text-gray-400 text-md lg:text-lg tracking-wide font-extralight font-qs">
@@ -118,7 +118,7 @@ const About = () => {
             <li>Hands on Training at EART Mumbai</li>
           </ul>
         </p>
-        <h2 className="text-center text-gray-900 tracking-widest uppercase mb-10 font-semibold mt-10 bg-blue-500 w-96 mx-auto rounded-3xl text-lg">
+        <h2 className="text-center text-gray-900 tracking-widest uppercase mb-10 font-qs font-bold mt-10 bg-blue-500 w-96 mx-auto rounded-3xl text-lg">
           Awards
         </h2>
         <p className="text-gray-400 text-lg lg:text-xl tracking-wide font-extralight font-qs">
@@ -137,7 +137,7 @@ const About = () => {
             <li>KSRTC – Association felicitation on Woman’s Day 2018 </li>
           </ul>
         </p>
-        <h2 className="text-center text-gray-900 tracking-widest uppercase mb-10 font-semibold mt-10 bg-blue-500 w-96 mx-auto rounded-3xl text-lg">
+        <h2 className="text-center text-gray-900 tracking-widest uppercase mb-10 font-qs font-bold mt-10 bg-blue-500 w-96 mx-auto rounded-3xl text-lg">
           Her Journey, Vision and Mission
         </h2>
         <p className="text-gray-400 text-md lg:text-lg tracking-wide font-extralight font-qs">
@@ -177,7 +177,7 @@ const About = () => {
         <p className="text-gray-400 text-md lg:text-lg tracking-wide font-extralight font-qs">
           Thus, GarbhaGudi IVF was born!
         </p>
-        <h2 className="text-center text-gray-900 tracking-widest uppercase mb-10 font-semibold mt-10 bg-blue-500 w-96 mx-auto rounded-3xl text-lg">
+        <h2 className="text-center text-gray-900 tracking-widest uppercase mb-10 font-qs font-bold mt-10 bg-blue-500 w-96 mx-auto rounded-3xl text-lg">
           Accomplishments
         </h2>
         <p className="text-gray-400 text-lg lg:text-xl tracking-wide font-extralight font-qs">

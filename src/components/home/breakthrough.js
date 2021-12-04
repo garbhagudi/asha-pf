@@ -14,7 +14,7 @@ const Breakthrough = () => {
                 <img
                   alt="ecommerce"
                   class="lg:w-1/2 w-full object-cover object-center rounded border border-gray-200"
-                  src="https://res.cloudinary.com/riotpixel/image/upload/v1629369250/Asha-pf/7154pJPjpRL_oden5p.jpg"
+                  src="https://res.cloudinary.com/garbhagudi/image/upload/v1638537996/Dr%20ASV/images/Break_Through_Book_3D_New_nuopu0.jpg"
                 />
                 <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
                   <h2 class="text-md title-font text-gray-200 tracking-widest">

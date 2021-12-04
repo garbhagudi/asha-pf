@@ -4,9 +4,9 @@ import ImageGallery from "react-image-gallery";
 const images = [
   {
     original:
-      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514074/Dr%20ASV/gallery/SDE_1680-min_m6ih6w.jpg",
+      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514148/Dr%20ASV/gallery/SDE_1843_fggayh.jpg",
     thumbnail:
-      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514074/Dr%20ASV/gallery/SDE_1680-min_m6ih6w.jpg",
+      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514148/Dr%20ASV/gallery/SDE_1843_fggayh.jpg",
   },
   {
     original:
@@ -34,12 +34,6 @@ const images = [
   },
   {
     original:
-      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514074/Dr%20ASV/gallery/SDE_1670-min_pml3vi.jpg",
-    thumbnail:
-      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514074/Dr%20ASV/gallery/SDE_1670-min_pml3vi.jpg",
-  },
-  {
-    original:
       "https://res.cloudinary.com/garbhagudi/image/upload/v1638514075/Dr%20ASV/gallery/SDE_1989-min_ib5jpo.jpg",
     thumbnail:
       "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514075/Dr%20ASV/gallery/SDE_1989-min_ib5jpo.jpg",
@@ -50,12 +44,7 @@ const images = [
     thumbnail:
       "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514077/Dr%20ASV/gallery/SDE_1756-min_pp74jy.jpg",
   },
-  {
-    original:
-      "https://res.cloudinary.com/garbhagudi/image/upload/v1638514148/Dr%20ASV/gallery/SDE_1843_fggayh.jpg",
-    thumbnail:
-      "https://res.cloudinary.com/garbhagudi/image/upload/c_scale,h_96,w_128/v1638514148/Dr%20ASV/gallery/SDE_1843_fggayh.jpg",
-  },
+
   {
     original:
       "https://res.cloudinary.com/garbhagudi/image/upload/v1638514368/Dr%20ASV/gallery/505_fa2no4.jpg",
@@ -132,7 +121,7 @@ const images = [
 
 const Photos = () => {
   return (
-    <div>
+    <div className="min-h-screen">
       <ImageGallery items={images} />
     </div>
   );
