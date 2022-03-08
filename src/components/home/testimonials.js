@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
 const Testimonials = () => {
@@ -10,8 +11,11 @@ const Testimonials = () => {
         <div class="bg-black w-96 shadow-lg mx-auto rounded-xl p-4 border">
           <p class="text-gray-400">
             <span class="font-bold text-blue-500 text-lg">“</span>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-            obcaecati rerum. Corrupti beatae neque aspernatur?
+            In my view Dr Asha madam is very committed and dedicated to her work
+            and patients. Madams unique Holistic approach in her treatment & the
+            latest technology available with affordable cost has given her rich
+            dividends. She has more than 7000 couples happy with their babies. I
+            pray that she continues to serve such couples tirelessly AMEN!!
             <span class="font-bold text-blue-500 text-lg">”</span>
           </p>
           <div class="flex items-center mt-4">
@@ -19,15 +23,13 @@ const Testimonials = () => {
               <img
                 src="https://res.cloudinary.com/riotpixel/image/upload/v1629367935/Asha-pf/dummy-profile-pic_eyvxl0.png"
                 alt="dummy"
-                class="ml-2 h-4 w-4"
+                class="ml-2 h-4 w-4 rounded-full"
               />
             </a>
             <div class="flex flex-col ml-2 justify-between">
-              <span class="font-semibold text-blue-500 text-sm">
-                Lorem, ipsum.
-              </span>
+              <span class="font-semibold text-blue-500 text-sm">Jayaram R</span>
               <span class="text-gray-400 text-xs flex items-center">
-                Lorem ipsum dolor sit.
+                General Manager
               </span>
             </div>
           </div>
@@ -45,7 +47,7 @@ const Testimonials = () => {
             <img
               src="https://res.cloudinary.com/riotpixel/image/upload/v1629367935/Asha-pf/dummy-profile-pic_eyvxl0.png"
               alt="dummy"
-              class="ml-2 h-4 w-4"
+              class="ml-2 h-4 w-4 rounded-full"
             />
             <div class="flex flex-col ml-2 justify-between">
               <span class="font-semibold text-blue-500 text-sm">
@@ -60,8 +62,10 @@ const Testimonials = () => {
         <div class="bg-black w-96 shadow-lg mx-auto rounded-xl p-4 border">
           <p class="text-gray-400">
             <span class="font-bold text-blue-500 text-lg">“</span>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam
-            repellendus eaque officia! Harum, officiis ipsa?
+            Madams unique Holistic approach in her treatment & the latest
+            technology available with affordable cost has given her rich
+            dividends. She is very fucused on her dream of creating awareness to
+            the general public regaring infertility issues and its treatments.
             <span class="font-bold text-indigo-500 text-lg">”</span>
           </p>
           <div class="flex items-center mt-4">
@@ -69,15 +73,15 @@ const Testimonials = () => {
               <img
                 src="https://res.cloudinary.com/riotpixel/image/upload/v1629367935/Asha-pf/dummy-profile-pic_eyvxl0.png"
                 alt="dummy"
-                class="ml-2 h-4 w-4"
+                class="ml-2 h-4 w-4 rounded-full"
               />
             </a>
             <div class="flex flex-col ml-2 justify-between">
-              <span class="font-semibold text-blue-500 text-sm">
-                Lorem, ipsum.
+              <span class="font-semibold text-blue-500 text-sm ">
+                Megha Bajaj
               </span>
               <span class="text-gray-400 text-xs flex items-center">
-                Lorem ipsum dolor sit.
+                Writer
               </span>
             </div>
           </div>
