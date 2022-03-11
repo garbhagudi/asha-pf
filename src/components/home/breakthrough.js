@@ -4,7 +4,7 @@ const Breakthrough = () => {
   return (
     <div>
       <div>
-        <h2 className="text-center text-white tracking-widest uppercase font-semibold bg-black text-lg pb-8">
+        <h2 className="text-center text-white tracking-widest uppercase font-semibold bg-black text-lg py-8">
           The Breakthrough
         </h2>
         <div className="book bg-black">

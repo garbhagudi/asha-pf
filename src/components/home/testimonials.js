@@ -3,12 +3,12 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <div>
-      <h2 className="text-center text-white tracking-widest uppercase font-semibold bg-black text-lg pb-8">
+    <div className="bg-black">
+      <h2 className="text-center text-white tracking-widest uppercase font-semibold bg-black text-lg py-8">
         Testimonials
       </h2>
-      <div class="w-full flex flex-col md:flex-row gap-4 md:mb-0 flex-between items-center p-8 bg-black pb-16">
-        <div class="bg-black w-96 shadow-lg mx-auto rounded-xl p-4 border">
+      <div class="flex flex-col md:flex-row gap-4 md:mb-0 flex-between items-center mx-auto bg-black pb-16">
+        <div class="bg-black max-w-md shadow-lg mx-auto rounded-xl p-4 border">
           <p class="text-gray-400">
             <span class="font-bold text-blue-500 text-lg">“</span>
             In my view Dr Asha madam is very committed and dedicated to her work
@@ -34,7 +34,7 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-        <div class="bg-black w-96 shadow-lg mx-auto rounded-xl p-4 border">
+        <div class="bg-black max-w-md shadow-lg mx-auto rounded-xl p-4 border">
           <p class="text-gray-400">
             <span class="font-bold text-blue-500 text-lg">“</span>I personally
             know Dr Asha S Viijay as a founder and medical director of
@@ -59,7 +59,7 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-        <div class="bg-black w-96 shadow-lg mx-auto rounded-xl p-4 border">
+        <div class="bg-black max-w-md shadow-lg mx-auto rounded-xl p-4 border">
           <p class="text-gray-400">
             <span class="font-bold text-blue-500 text-lg">“</span>
             Madams unique Holistic approach in her treatment & the latest

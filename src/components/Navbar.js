@@ -56,7 +56,7 @@ const Navbar = () => {
             <NavLink
               key={link.name}
               to={link.href}
-              className="font-medium text-white font-qs  transition-all duration-500"
+              className="font-medium text-white font-qs text-xs sm:text-sm md:text-md  transition-all duration-500"
               activeClassName="tracking-widest border-b-2 border-white"
             >
               {link.name}
